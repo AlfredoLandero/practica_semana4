@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./poledex.css">
+    <link rel="stylesheet" href="pokedex.css">
+</head>
+
+<body>
+    <div class="contenedorprincipal">
+        <div class="titulo">
+            <h1>¿QUIEN ES ESE POKEMON?</h1>
+        </div>
+        <section class="tarjeta">
+
+            <div class="imagen"><img src="./pokeball.png" alt="Pokemon" id="pokeImg" width="150px"></div>
+
+            <div class="nombrecon">
+                <input type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
+                <button onclick="fetchPokemon()" class="boton">GO!</button>
+            </div>
+
+
+            <div class="nombre1">
+                <h1 class="nombre" id="nombre"></h1>
+            </div>
+            <div class="tipo1">
+                <h1 class="tipo" id="tipo"></h1>
+            </div>
+            <div class="estadisticas"></div>
+            <div class="movimientos">
+                <h2 id="movimientos"></h2>
+            </div>
+        </section>
+    </div>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+
+</html>
